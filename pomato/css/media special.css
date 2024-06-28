@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1024px){
+  header{
+		margin-left: 40px;
+	}
+
+	ul{
+	margin-left: 200px;
+		}
+	.nav2{
+		width: 60%;
+		margin-left: 350px;
+  }
+  .more{
+  	margin-left: 400px;
+  }
+  .add > ul{
+  	margin-left: 250px;
+  }
+}
+@media only screen and (max-width: 768px){
+	.add >ul{
+		margin-left: 100px;
+	}
+}

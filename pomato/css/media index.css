@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1024px){
+  header{
+		margin-left: 40px;
+	}
+
+	ul{
+	margin-left: 300px;
+		}
+	.nav2{
+		width: 60%;
+		margin-left: 350px;
+  }
+  .add ul{
+  	margin-left: 300px;								
+  }
+  .contact > form >input[type=phone]{
+	width: 700px;
+	height: 20px;
+}
+textarea{
+	width: 700px;
+	border: 2px solid red;
+	padding: 15px;
+	padding-top: 20px;
+}
+.btn{
+	margin-left: 300px;
+}
+}
+@media only screen and (max-width: 1440px){
+	.flex ul{
+		margin-left: 350px;
+	}
+	.nav2 p{
+		margin-left: 50px;
+	}
+	
+}
+

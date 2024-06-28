@@ -1,0 +1,187 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	z-index: 1;
+}
+header{
+	text-align: center;
+	margin-left: 60px;
+	font-family: 'Nunito', sans-serif;
+}
+.flex{
+	display: flex;
+	flex-wrap: nowrap;
+}
+.flex{
+	font-family: poppins;
+     padding: 10px 0px;
+     background: url(../images/hea.png);
+     background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	width: 100%;    
+}
+ul{
+	list-style-type: none;
+	margin-left: 300px;
+	font-size: 30px;
+}
+ul > li{
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+ul > li > a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+}
+.nav2{
+	font-family: poppins;
+    padding: 10px 0px;
+    background: url(../images/mi.png);
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	width: 50%;
+	height: 40px;
+	margin-left: 600px;
+}
+.nav2 > p{
+	margin-left: 90px;
+}
+p{
+
+	font-size: 20px;
+	color: white;
+}
+.index{
+	font-family: poppins;
+    background: url(../images/banner.jpg);
+    position: relative;
+    top: -100px;
+    z-index: -1;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-family: 'Nunito', sans-serif;
+}
+header{
+	text-align: center;
+	margin-left: 60px;
+	font-family: 'Nunito', sans-serif;
+}
+.index input{
+	border: 2px solid white;
+	border-radius: 30px;
+	width: 180px;
+	height: 50px;
+	margin-top: 50px;
+	color: red;
+	font-family: verdana;
+	font-size: 15px;
+}
+.index h1{
+	font-size: 50px;
+	padding-top: 140px;
+	color: white;
+	text-align: center;
+	
+}
+.index .p{
+	font-size: 20px;
+	color: lavender;
+	text-align: center;
+}
+.index input:hover{
+	background-color: red;
+	color: white;
+	border-color: red;
+	transition: 0.5s ease;
+}
+.icon{
+	padding: 25px;
+}
+input{
+	border: 2px solid white;
+	border-radius: 30px;
+	width: 180px;
+	height: 50px;
+	margin-top: 50px;
+	color: red;
+	font-family: verdana;
+	font-size: 15px;
+}
+.fab{
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 50%;
+}
+.fab:hover{
+	background-color: red;
+	color: white;
+	border-color: red;
+	transition: 0.5s ease;
+}
+.add{
+	background-color: black;
+	color: white;
+	margin-top:-100px;
+}
+.add > header >h1{
+	color: white;
+	font-size: 35px;
+	text-align: center;
+	margin-left: -40px;
+	padding-bottom: 20px;
+	padding-top: 40px;
+}
+.add > p{
+	padding-top: 30px;
+	text-align: center;
+	margin-left: 30px;
+	padding: 20px;
+	font-size: 2s5px;
+	font-family: 'Nunito', sans-serif;
+}
+.add > .icon{
+	padding-top: 5px;
+}
+.add > ul{
+	margin-left: 350px;
+	font-family: 'Nunito', sans-serif;
+}
+.add > ul > li:hover a{
+	color: red;
+	transition: 0.5s ease;
+}
+footer{
+	background-color: white;
+	color: black;
+	text-align: center;
+	padding: 20px;
+}
+input{
+	border: 2px solid white;
+	border-radius: 30px;
+	width: 180px;
+	height: 50px;
+	margin-top: 50px;
+	color: red;
+	font-family: verdana;
+	font-size: 15px;
+}
+.fab{
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 50%;
+}
+.fab:hover{
+	background-color: red;
+	color: white;
+	border-color: red;
+	transition: 0.5s ease;
+}

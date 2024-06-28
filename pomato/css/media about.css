@@ -1,0 +1,21 @@
+@media only screen and (max-width: 1024px){
+  header{
+		margin-left: 40px;
+	}
+
+	ul{
+	margin-left: 200px;
+		}
+	.nav2{
+		width: 60%;
+		margin-left: 350px;
+  }
+  .add > ul{
+  	margin-left: 260px;
+  }
+}
+@media only screen and (max-width: 768px){
+	.main{
+		font-size: 10px;
+	}
+}

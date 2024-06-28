@@ -1,0 +1,346 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	z-index: 1;
+}
+.index{
+	font-family: poppins;
+    background: url(../images/banner.jpg);
+    position: relative;
+    top: -100px;
+    z-index: -1;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-family: 'Nunito', sans-serif;
+	padding-bottom: 60px;
+}
+header{
+	text-align: center;
+	margin-left: 60px;
+	font-family: 'Nunito', sans-serif;
+}
+.flex{
+	display: flex;
+	flex-wrap: nowrap;
+}
+.flex{
+	font-family: poppins;
+     padding: 10px 0px;
+     background: url(../images/hea.png);
+     background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	width: 100%;    
+}
+.flex ul{
+	list-style-type: none;
+	margin-left: 400px;
+}
+ul > li{
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+ul > li > a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+.nav2{
+	font-family: poppins;
+    padding: 10px 0px;
+    background: url(../images/mi.png);
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	width: 50%;
+	height: 40px;
+	margin-left: 500px;
+	
+}
+.nav2 > p{
+	margin-left: 60px;
+}
+h1{
+	margin-top: 60px;
+	margin-left: 200px;
+	font-size: 70px;
+	color: white;
+}
+p{
+	margin-left: 200px;
+	font-size: 20px;
+	color: white;
+}
+.index input{
+	border: 2px solid white;
+	border-radius: 30px;
+	width: 180px;
+	height: 50px;
+	margin-left: 200px;
+	margin-top: 50px;
+	color: red;
+	font-family: verdana;
+	font-size: 15px;
+}
+.index h1{
+	font-size: 50px;
+	padding-top: 60px;
+}
+.index p{
+	font-size: 17px;
+}
+.index input[type=submit]:hover{
+	background-color: red;
+	color: white;
+	transition: 0.5s ease;
+	border-color: red;
+}
+.icon{
+	padding: 10px;
+}
+.fab{
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 50%;
+}
+.fab:hover{
+	background-color: red;
+	color: white;
+	border-color: red;
+	transition: 0.5s ease;
+}
+.about{
+	display: flex;
+	background-color: white;
+	background-size: cover;
+	color: black;
+	text-align: right;
+	padding-right: 50px;
+}
+.about div img{
+	height: 600px;
+	margin-top: 100px;
+	margin-left: 130px;
+	padding-bottom: 100px;
+}
+.main h1{
+	color: black;
+	font-size: 40px;
+	font-family: 'Nunito', sans-serif;
+	margin-left: 100px; 	
+}
+h3{
+	color: gray;
+	margin-left: 250px;
+	margin-top: 200px;
+	font-size: 30px;
+	font-family: 'Nunito', sans-serif;
+}
+.main p{
+	color: gray;
+	font-family: 'Nunito', sans-serif;
+	margin-left: 20px;
+	font-size: 15px;
+	padding: 20px;
+}
+.brand{
+	background-color: lavender;
+}
+.brand > header{
+	background-color: white;
+	color: black;
+	margin-left: 0;
+	font-size: 50px;
+	font-family: 'Nunito', sans-serif;
+	text-align: left;
+	padding-left: 100px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.brand input{
+	border: 2px solid white;
+	border-radius: 30px;
+	width: 180px;
+	height: 50px;
+	margin-left: 0;
+	color: red;
+	font-family: verdana;
+	font-size: 15px;
+	background-color: black;
+	color: white;
+}
+.brand input:hover{
+	background-color: red;
+	color: white;
+	border-color: red;
+	transition: 0.5s ease;
+}
+.grid{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 40px;
+	background-color: lavender;
+	padding-left: 50px;
+	padding-top: 100px;
+	padding-right: 50px;
+	padding-bottom: 100px;
+}
+.grid > div{
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+.grid > div > p{
+	color: black;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	padding-right: 30px;
+	margin-left: 20px;
+}
+.grid > div > img{
+	padding-top: 50px;
+}
+.more{
+	border: 2px solid black;
+	border-radius: 30px;
+	width: 180px;
+	height: 50px;
+	margin-left: 500px;
+	color: white;
+	font-family: verdana;
+	font-size: 15px;
+	background-color: black;
+}
+.client{
+	background-color: red;
+}
+.client > header{
+	background-color: white;
+	color: black;
+	font-family: 'Nunito', sans-serif;
+	font-size: 50px;
+	margin-left: 0;
+	text-align: left;
+	padding-left: 100px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.client > .mydiv{
+	background-color: white;
+	width: 60%;
+	height: 200px;
+	color: black;
+	transform: skew(-30deg);
+	margin-left: 200px;
+
+}
+.mydiv{
+	text-align: center;
+	padding-bottom: 20px;
+	margin-left: 600px;
+}
+.mydiv p{
+	color: black;
+	margin-left: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.mydiv h3{
+	margin-left: 40px;
+	padding-top: 0px;
+}
+.contact{
+	background-color: white;
+}
+.contact > header > h1{
+	color: black;
+	text-align: left;
+	margin-left: 0;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	font-size: 40px;
+	font-family: 'Nunito', sans-serif;
+}
+form{
+	background-color: white;
+	box-shadow: 10px 10px 10px 10px lightgray;
+	width: 80%;
+	margin-left: 100px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding: 20px;
+}
+.contact > form > input{
+	width: 400px;
+	border: 2px solid red;
+	padding: 20px;
+	padding-top: 20px;
+	height: 20px;
+}
+.contact > form >input[type=phone]{
+	width: 820px;
+	height: 20px;
+}
+textarea{
+	width: 820px;
+	border: 2px solid red;
+	padding: 15px;
+	padding-top: 20px;
+}
+.btn{
+	border: 2px solid black;
+	background-color: black;
+	color: white;
+	width: 150px;
+	height: 40px;
+	margin-left: 350px;
+}
+.btn:hover{
+	background-color: red;
+	color: white;
+	border-color: red;
+	transition: 0.5s ease;
+}
+.add{
+	background-color: black;
+	color: white;
+}
+.add > header >h1{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin-left: 20px;
+	padding-bottom: 20px;
+	padding-top: 40px;
+}
+.add > p{
+	padding-top: 20px;
+	text-align: center;
+	margin-left: 30px;
+	padding: 20px;
+	font-size: 15px;
+	font-family: 'Nunito', sans-serif;
+}
+.add > .icon{
+	padding-top: 5px;
+}
+.add > ul{
+	margin-left: 460px;
+	font-family: 'Nunito', sans-serif;
+}
+.add > ul > li:hover a{
+	color: red;
+	transition: 0.5s ease;
+}
+footer{
+	background-color: white;
+	color: black;
+	text-align: center;
+	padding: 20px;
+}

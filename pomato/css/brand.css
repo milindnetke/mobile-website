@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	z-index: 1;
+}
+header{
+	text-align: center;
+	margin-left: 60px;
+	font-family: 'Nunito', sans-serif;
+}
+.flex{
+	display: flex;
+	flex-wrap: nowrap;
+}
+.flex{
+	font-family: poppins;
+     padding: 10px 0px;
+     background: url(../images/hea.png);
+     background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	width: 100%;    
+}
+.flex ul{
+	list-style-type: none;
+	margin-left: 400px;
+	font-size: 30px;
+}
+ul > li{
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+ul > li > a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+}
+.nav2{
+	font-family: poppins;
+    padding: 10px 0px;
+    background: url(../images/mi.png);
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	width: 50%;
+	height: 40px;
+	margin-left: 600px;
+}
+.nav2 > p{
+	margin-left: 90px;
+}
+p{
+	margin-left: 200px;
+	font-size: 20px;
+	color: white;
+}
+.h1{
+	height: 200px;
+	background-color: lightgray;
+	position: relative;
+	top: -50px;
+	z-index: -1;
+}
+.h1 h1{
+	padding-top: 90px;
+	font-size: 50px;
+	padding-left: 140px;
+	font-family: 'Nunito', sans-serif;
+}
+.grid{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 40px;
+	background-color: lavender;
+	padding-left: 50px;
+	padding-top: 100px;
+	padding-right: 50px;
+	padding-bottom: 100px;
+}
+.grid > div{
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+.grid > div > p{
+	color: black;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	padding-right: 30px;
+	margin-left: 20px;
+}
+.grid > div > img{
+	padding-top: 50px;
+}
+.more{
+	border: 2px solid black;
+	border-radius: 30px;
+	width: 180px;
+	height: 50px;
+	color: white;
+	margin-left: -100px;
+	font-family: verdana;
+	font-size: 15px;
+	background-color: black;
+	text-align: center;
+}
+.more:hover{
+	background-color: red;
+	color: white;
+	border-color: red;
+	transition: 0.5s ease;
+}
+.add{
+	background-color: black;
+	color: white;
+}
+.add > header >h1{
+	color: white;
+	font-size: 35px;
+	text-align: center;
+	margin-left: -40px;
+	padding-bottom: 20px;
+	padding-top: 40px;
+}
+.add > p{
+	padding-top: 30px;
+	text-align: center;
+	margin-left: 30px;
+	padding: 20px;
+	font-size: 2s5px;
+	font-family: 'Nunito', sans-serif;
+}
+.add > .icon{
+	padding-top: 5px;
+}
+.add > ul{
+	font-family: 'Nunito', sans-serif;
+}
+.add > ul > li:hover a{
+	color: red;
+	transition: 0.5s ease;
+}
+footer{
+	background-color: white;
+	color: black;
+	text-align: center;
+	padding: 20px;
+}
+.fab{
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 50%;
+}
+.fab:hover{
+	background-color: red;
+	color: white;
+	border-color: red;
+	transition: 0.5s ease;
+}
